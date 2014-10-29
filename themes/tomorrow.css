@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Tomorrow Dark
+    Author:     Chris Kempson (http://chriskempson.com)
+
+	Brackets Template by Amit Mendapara (https://github.com/cristatus)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+.cm-s-tomorrow .cm-keyword {color: #b294bb;}
+.cm-s-tomorrow .cm-atom {color: #de935f;}
+.cm-s-tomorrow .cm-number {color: #de935f;}
+.cm-s-tomorrow .cm-def {color: #81a2be;}
+.cm-s-tomorrow .cm-punctuation {color: #b294bb;}
+.cm-s-tomorrow .cm-property {color: #81a2be;}
+.cm-s-tomorrow .cm-operator {color: #c5c8c6;}
+.cm-s-tomorrow .cm-variable {color: #cc6666;}
+.cm-s-tomorrow .cm-variable-2 {color: #cc6666;}
+.cm-s-tomorrow .cm-variable-3 {color: #cc6666;}
+.cm-s-tomorrow .cm-comment {color: #969896;}
+.cm-s-tomorrow .cm-string {color: #b5bd68;}
+.cm-s-tomorrow .cm-string-2 {color: #8abeb7;}
+.cm-s-tomorrow .cm-meta {color: #a3685a;}
+.cm-s-tomorrow .cm-qualifier {color: #c5c8c6;}
+.cm-s-tomorrow .cm-builtin {color: #b294bb;}
+.cm-s-tomorrow .cm-bracket {color: #c5c8c6;}
+.cm-s-tomorrow .cm-tag {color: #cc6666;}
+.cm-s-tomorrow .cm-attribute {color: #de935f;}
+.cm-s-tomorrow .cm-header {color: #81a2be;}
+.cm-s-tomorrow .cm-quote {color: #de935f;}
+.cm-s-tomorrow .cm-hr {color: #c5c8c6; background-color: #373b41;}
+.cm-s-tomorrow .cm-link {color: #cc6666;}
+
+.cm-s-tomorrow .cm-error,
+.cm-s-tomorrow .cm-invalidchar {color: #ffffff !important; background: #cc6666;}
+
+.cm-s-tomorrow.CodeMirror {
+    background: #1d1f21;
+    color: #c5c8c6;
+}
+
+.cm-s-tomorrow div.CodeMirror-selected {
+    background: rgba(160, 160, 160, 0.33) !important;
+}
+
+.cm-s-tomorrow .CodeMirror-linenumber {
+    color: #969896;
+}
+
+.cm-s-tomorrow .CodeMirror-gutters {
+    background: #1d1f21;
+    color: #c5c8c6;
+    border-right: 0px;
+}
+
+.cm-s-tomorrow .CodeMirror-cursor,
+.cm-s-tomorrow .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #f0f0f0 !important;
+    z-index: 3;
+}
+
+.cm-s-tomorrow div.CodeMirror-overwrite div.CodeMirror-cursor {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.cm-s-tomorrow .CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.cm-s-tomorrow .CodeMirror-activeline-background {
+    background: rgba(80, 80, 80, 0.33) !important;
+}
+
+.cm-s-tomorrow .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+    color: #373b41 !important
+}
+
+.cm-s-tomorrow span.CodeMirror-matchingbracket,
+.cm-s-tomorrow span.CodeMirror-matchingtag {
+    background: #373b41 !important;
+}
+
+.cm-s-tomorrow span.CodeMirror-matchingbracket {
+    color: white !important;
+}
