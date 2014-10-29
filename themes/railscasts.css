@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Railscasts Dark
+    Author:     Ryan Bates (http://railscasts.com)
+
+	Brackets Template by Amit Mendapara (https://github.com/cristatus)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+.cm-s-railscasts .cm-keyword {color: #b6b3eb;}
+.cm-s-railscasts .cm-atom {color: #cc7833;}
+.cm-s-railscasts .cm-number {color: #cc7833;}
+.cm-s-railscasts .cm-def {color: #6d9cbe;}
+.cm-s-railscasts .cm-punctuation {color: #b6b3eb;}
+.cm-s-railscasts .cm-property {color: #6d9cbe;}
+.cm-s-railscasts .cm-operator {color: #e6e1dc;}
+.cm-s-railscasts .cm-variable {color: #da4939;}
+.cm-s-railscasts .cm-variable-2 {color: #da4939;}
+.cm-s-railscasts .cm-variable-3 {color: #da4939;}
+.cm-s-railscasts .cm-comment {color: #5a647e;}
+.cm-s-railscasts .cm-string {color: #a5c261;}
+.cm-s-railscasts .cm-string-2 {color: #519f50;}
+.cm-s-railscasts .cm-meta {color: #bc9458;}
+.cm-s-railscasts .cm-qualifier {color: #e6e1dc;}
+.cm-s-railscasts .cm-builtin {color: #b6b3eb;}
+.cm-s-railscasts .cm-bracket {color: #e6e1dc;}
+.cm-s-railscasts .cm-tag {color: #da4939;}
+.cm-s-railscasts .cm-attribute {color: #cc7833;}
+.cm-s-railscasts .cm-header {color: #6d9cbe;}
+.cm-s-railscasts .cm-quote {color: #cc7833;}
+.cm-s-railscasts .cm-hr {color: #e6e1dc; background-color: #3a4055;}
+.cm-s-railscasts .cm-link {color: #da4939;}
+
+.cm-s-railscasts .cm-error,
+.cm-s-railscasts .cm-invalidchar {color: #f9f7f3 !important; background: #da4939;}
+
+.cm-s-railscasts.CodeMirror {
+    background: #2b2b2b;
+    color: #e6e1dc;
+}
+
+.cm-s-railscasts div.CodeMirror-selected {
+    background: rgba(160, 160, 160, 0.33) !important;
+}
+
+.cm-s-railscasts .CodeMirror-linenumber {
+    color: #5a647e;
+}
+
+.cm-s-railscasts .CodeMirror-gutters {
+    background: #2b2b2b;
+    color: #e6e1dc;
+    border-right: 0px;
+}
+
+.cm-s-railscasts .CodeMirror-cursor,
+.cm-s-railscasts .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #f0f0f0 !important;
+    z-index: 3;
+}
+
+.cm-s-railscasts div.CodeMirror-overwrite div.CodeMirror-cursor {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.cm-s-railscasts .CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.cm-s-railscasts .CodeMirror-activeline-background {
+    background: rgba(80, 80, 80, 0.33) !important;
+}
+
+.cm-s-railscasts .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+    color: #3a4055 !important
+}
+
+.cm-s-railscasts span.CodeMirror-matchingbracket,
+.cm-s-railscasts span.CodeMirror-matchingtag {
+    background: #3a4055 !important;
+}
+
+.cm-s-railscasts span.CodeMirror-matchingbracket {
+    color: white !important;
+}
