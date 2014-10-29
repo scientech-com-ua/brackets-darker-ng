@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Monokai Dark
+    Author:     Wimer Hazenberg (http://www.monokai.nl)
+
+	Brackets Template by Amit Mendapara (https://github.com/cristatus)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+.cm-s-monokai .cm-keyword {color: #ae81ff;}
+.cm-s-monokai .cm-atom {color: #fd971f;}
+.cm-s-monokai .cm-number {color: #fd971f;}
+.cm-s-monokai .cm-def {color: #66d9ef;}
+.cm-s-monokai .cm-punctuation {color: #ae81ff;}
+.cm-s-monokai .cm-property {color: #66d9ef;}
+.cm-s-monokai .cm-operator {color: #f8f8f2;}
+.cm-s-monokai .cm-variable {color: #f92672;}
+.cm-s-monokai .cm-variable-2 {color: #f92672;}
+.cm-s-monokai .cm-variable-3 {color: #f92672;}
+.cm-s-monokai .cm-comment {color: #75715e;}
+.cm-s-monokai .cm-string {color: #a6e22e;}
+.cm-s-monokai .cm-string-2 {color: #a1efe4;}
+.cm-s-monokai .cm-meta {color: #cc6633;}
+.cm-s-monokai .cm-qualifier {color: #f8f8f2;}
+.cm-s-monokai .cm-builtin {color: #ae81ff;}
+.cm-s-monokai .cm-bracket {color: #f8f8f2;}
+.cm-s-monokai .cm-tag {color: #f92672;}
+.cm-s-monokai .cm-attribute {color: #fd971f;}
+.cm-s-monokai .cm-header {color: #66d9ef;}
+.cm-s-monokai .cm-quote {color: #fd971f;}
+.cm-s-monokai .cm-hr {color: #f8f8f2; background-color: #49483e;}
+.cm-s-monokai .cm-link {color: #f92672;}
+
+.cm-s-monokai .cm-error,
+.cm-s-monokai .cm-invalidchar {color: #f9f8f5 !important; background: #f92672;}
+
+.cm-s-monokai.CodeMirror {
+    background: #272822;
+    color: #f8f8f2;
+}
+
+.cm-s-monokai div.CodeMirror-selected {
+    background: rgba(160, 160, 160, 0.33) !important;
+}
+
+.cm-s-monokai .CodeMirror-linenumber {
+    color: #75715e;
+}
+
+.cm-s-monokai .CodeMirror-gutters {
+    background: #272822;
+    color: #f8f8f2;
+    border-right: 0px;
+}
+
+.cm-s-monokai .CodeMirror-cursor,
+.cm-s-monokai .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #f0f0f0 !important;
+    z-index: 3;
+}
+
+.cm-s-monokai div.CodeMirror-overwrite div.CodeMirror-cursor {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.cm-s-monokai .CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.cm-s-monokai .CodeMirror-activeline-background {
+    background: rgba(80, 80, 80, 0.33) !important;
+}
+
+.cm-s-monokai .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+    color: #49483e !important
+}
+
+.cm-s-monokai span.CodeMirror-matchingbracket,
+.cm-s-monokai span.CodeMirror-matchingtag {
+    background: #49483e !important;
+}
+
+.cm-s-monokai span.CodeMirror-matchingbracket {
+    color: white !important;
+}
