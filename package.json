@@ -1,0 +1,19 @@
+{
+    "name": "brackets-darker-ng",
+    "title": "Brackets Darker NG",
+    "version": "1.0.0",
+    "description": "27 Cool & Dark Adobe Brackets IDE themes pack",
+    "homepage": "https://github.com/scientech-com-ua/brackets-darker-ng",
+    "author": "Scientech LLC",
+    "license": "MIT",
+    "contributors": [
+        "Sergey Yamilov <jamy023@gmail.com> (https://github.com/jamy23)"
+    ],
+    "engines": {
+        "brackets": ">=0.43.0"
+    },
+    "keywords": [
+        "dark",
+        "theme"
+    ]
+}
