@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Solarized Dark
+    Author:     Ethan Schoonover (http://ethanschoonover.com/solarized)
+
+	Brackets Template by Amit Mendapara (https://github.com/cristatus)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+.cm-s-base16-solarized .cm-keyword {color: #6c71c4;}
+.cm-s-base16-solarized .cm-atom {color: #cb4b16;}
+.cm-s-base16-solarized .cm-number {color: #cb4b16;}
+.cm-s-base16-solarized .cm-def {color: #268bd2;}
+.cm-s-base16-solarized .cm-punctuation {color: #6c71c4;}
+.cm-s-base16-solarized .cm-property {color: #268bd2;}
+.cm-s-base16-solarized .cm-operator {color: #93a1a1;}
+.cm-s-base16-solarized .cm-variable {color: #dc322f;}
+.cm-s-base16-solarized .cm-variable-2 {color: #dc322f;}
+.cm-s-base16-solarized .cm-variable-3 {color: #dc322f;}
+.cm-s-base16-solarized .cm-comment {color: #657b83;}
+.cm-s-base16-solarized .cm-string {color: #859900;}
+.cm-s-base16-solarized .cm-string-2 {color: #2aa198;}
+.cm-s-base16-solarized .cm-meta {color: #d33682;}
+.cm-s-base16-solarized .cm-qualifier {color: #93a1a1;}
+.cm-s-base16-solarized .cm-builtin {color: #6c71c4;}
+.cm-s-base16-solarized .cm-bracket {color: #93a1a1;}
+.cm-s-base16-solarized .cm-tag {color: #dc322f;}
+.cm-s-base16-solarized .cm-attribute {color: #cb4b16;}
+.cm-s-base16-solarized .cm-header {color: #268bd2;}
+.cm-s-base16-solarized .cm-quote {color: #cb4b16;}
+.cm-s-base16-solarized .cm-hr {color: #93a1a1; background-color: #586e75;}
+.cm-s-base16-solarized .cm-link {color: #dc322f;}
+
+.cm-s-base16-solarized .cm-error,
+.cm-s-base16-solarized .cm-invalidchar {color: #fdf6e3 !important; background: #dc322f;}
+
+.cm-s-base16-solarized.CodeMirror {
+    background: #002b36;
+    color: #93a1a1;
+}
+
+.cm-s-base16-solarized div.CodeMirror-selected {
+    background: rgba(160, 160, 160, 0.33) !important;
+}
+
+.cm-s-base16-solarized .CodeMirror-linenumber {
+    color: #657b83;
+}
+
+.cm-s-base16-solarized .CodeMirror-gutters {
+    background: #002b36;
+    color: #93a1a1;
+    border-right: 0px;
+}
+
+.cm-s-base16-solarized .CodeMirror-cursor,
+.cm-s-base16-solarized .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #f0f0f0 !important;
+    z-index: 3;
+}
+
+.cm-s-base16-solarized div.CodeMirror-overwrite div.CodeMirror-cursor {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.cm-s-base16-solarized .CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.cm-s-base16-solarized .CodeMirror-activeline-background {
+    background: rgba(80, 80, 80, 0.33) !important;
+}
+
+.cm-s-base16-solarized .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+    color: #586e75 !important
+}
+
+.cm-s-base16-solarized span.CodeMirror-matchingbracket,
+.cm-s-base16-solarized span.CodeMirror-matchingtag {
+    background: #586e75 !important;
+}
+
+.cm-s-base16-solarized span.CodeMirror-matchingbracket {
+    color: white !important;
+}
