@@ -1,0 +1,125 @@
+body {
+    font-family: 'Droid Sans', Ubuntu, 'Dejavu Sans', 'SourceSansPro', Helvetica, Arial, "Meiryo UI", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.CodeMirror-gutters {
+    border-right: none;
+}
+
+#status-indicators,
+#status-indicators div:not(#status-inspection),
+
+#status-info,
+#status-indicators {
+    background: transparent;
+    color: inherit;
+}
+
+.CodeMirror-activeline-background {
+    background: none;
+}
+
+#working-set-header {
+    text-shadow: none;
+}
+
+#titlebar {
+    height: 15px;
+}
+
+#titlebar .title-wrapper {
+    display: none;
+}
+
+#titlebar .nav .dropdown-toggle {
+    padding: 2px 5px 1px !important;
+    font-size: 13px;
+
+}
+
+#titlebar .nav .dropdown-menu {
+    top: 23px;
+}
+
+#titlebar .nav .dropdown-menu {
+    top: 23px;
+}
+
+#project-files-header {
+    border-top: 0;
+}
+
+.dark body,
+.dark .main-view,
+.dark #editor-holder .not-editor {
+    background: #3c3f41;
+}
+
+.dark #titlebar {
+    border-bottom: 1px solid #3c3f41;
+}
+
+.dark .modal-bar {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.dark #titlebar,
+.dark #main-toolbar,
+.dark #status-bar,
+.dark #status-indicators {
+    background-color: #3c3f41;
+    color: #fff;
+}
+
+.dark #status-info,
+.dark #status-indicators *,
+.dark #titlebar .nav .dropdown-toggle {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px;
+}
+
+.dark .dropdown-menu,
+.dark .toolbar .nav .dropdown-menu,
+.dark .context-menu .dropdown-menu,
+.dark .codehint-menu .dropdown-menu {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark #function-hint-container {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid rgba(119, 119, 119, 0.15);
+}
+
+.dark select > option {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+.dark .dropdown-menu li a,
+.dark .toolbar .nav .dropdown-menu li a,
+.dark .context-menu .dropdown-menu li a,
+.dark .codehint-menu .dropdown-menu li a {
+    text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px;
+}
+
+.dark .codehint-menu .dropdown-menu li a:hover {
+    background-color: #333;
+}
+
+.dark .toolbar .nav .dropdown-menu li a.disabled,
+.dark .context-menu .dropdown-menu li a.disabled,
+.dark .codehint-menu .dropdown-menu li a.disabled {
+    color: #777;
+}
+
+.dark .toolbar .nav .dropdown-menu li a.disabled:hover,
+.dark .context-menu .dropdown-menu li a.disabled:hover,
+.dark .codehint-menu .dropdown-menu li a.disabled:hover {
+    background-color: #444;
+}
+
+.CodeMirror .CodeMirror-scroll {
+    background-color: transparent;
+}
