@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Atelier Forest Dark
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
+
+	Brackets Template by Amit Mendapara (https://github.com/cristatus)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+.cm-s-atelierforest .cm-keyword {color: #6666ea;}
+.cm-s-atelierforest .cm-atom {color: #df5320;}
+.cm-s-atelierforest .cm-number {color: #df5320;}
+.cm-s-atelierforest .cm-def {color: #407ee7;}
+.cm-s-atelierforest .cm-punctuation {color: #6666ea;}
+.cm-s-atelierforest .cm-property {color: #407ee7;}
+.cm-s-atelierforest .cm-operator {color: #a8a19f;}
+.cm-s-atelierforest .cm-variable {color: #f22c40;}
+.cm-s-atelierforest .cm-variable-2 {color: #f22c40;}
+.cm-s-atelierforest .cm-variable-3 {color: #f22c40;}
+.cm-s-atelierforest .cm-comment {color: #766e6b;}
+.cm-s-atelierforest .cm-string {color: #5ab738;}
+.cm-s-atelierforest .cm-string-2 {color: #00ad9c;}
+.cm-s-atelierforest .cm-meta {color: #c33ff3;}
+.cm-s-atelierforest .cm-qualifier {color: #a8a19f;}
+.cm-s-atelierforest .cm-builtin {color: #6666ea;}
+.cm-s-atelierforest .cm-bracket {color: #a8a19f;}
+.cm-s-atelierforest .cm-tag {color: #f22c40;}
+.cm-s-atelierforest .cm-attribute {color: #df5320;}
+.cm-s-atelierforest .cm-header {color: #407ee7;}
+.cm-s-atelierforest .cm-quote {color: #df5320;}
+.cm-s-atelierforest .cm-hr {color: #a8a19f; background-color: #68615e;}
+.cm-s-atelierforest .cm-link {color: #f22c40;}
+
+.cm-s-atelierforest .cm-error,
+.cm-s-atelierforest .cm-invalidchar {color: #f1efee !important; background: #f22c40;}
+
+.cm-s-atelierforest.CodeMirror {
+    background: #1b1918;
+    color: #a8a19f;
+}
+
+.cm-s-atelierforest div.CodeMirror-selected {
+    background: rgba(160, 160, 160, 0.33) !important;
+}
+
+.cm-s-atelierforest .CodeMirror-linenumber {
+    color: #766e6b;
+}
+
+.cm-s-atelierforest .CodeMirror-gutters {
+    background: #1b1918;
+    color: #a8a19f;
+    border-right: 0px;
+}
+
+.cm-s-atelierforest .CodeMirror-cursor,
+.cm-s-atelierforest .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #f0f0f0 !important;
+    z-index: 3;
+}
+
+.cm-s-atelierforest div.CodeMirror-overwrite div.CodeMirror-cursor {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.cm-s-atelierforest .CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.cm-s-atelierforest .CodeMirror-activeline-background {
+    background: rgba(80, 80, 80, 0.33) !important;
+}
+
+.cm-s-atelierforest .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+    color: #68615e !important
+}
+
+.cm-s-atelierforest span.CodeMirror-matchingbracket,
+.cm-s-atelierforest span.CodeMirror-matchingtag {
+    background: #68615e !important;
+}
+
+.cm-s-atelierforest span.CodeMirror-matchingbracket {
+    color: white !important;
+}
