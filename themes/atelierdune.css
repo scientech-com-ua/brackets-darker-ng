@@ -1,0 +1,87 @@
+/*
+
+    Name:       Base16 Atelier Dune Dark
+    Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+
+	Brackets Template by Amit Mendapara (https://github.com/cristatus)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+.cm-s-atelierdune .cm-keyword {color: #b854d4;}
+.cm-s-atelierdune .cm-atom {color: #b65611;}
+.cm-s-atelierdune .cm-number {color: #b65611;}
+.cm-s-atelierdune .cm-def {color: #6684e1;}
+.cm-s-atelierdune .cm-punctuation {color: #b854d4;}
+.cm-s-atelierdune .cm-property {color: #6684e1;}
+.cm-s-atelierdune .cm-operator {color: #a6a28c;}
+.cm-s-atelierdune .cm-variable {color: #d73737;}
+.cm-s-atelierdune .cm-variable-2 {color: #d73737;}
+.cm-s-atelierdune .cm-variable-3 {color: #d73737;}
+.cm-s-atelierdune .cm-comment {color: #7d7a68;}
+.cm-s-atelierdune .cm-string {color: #60ac39;}
+.cm-s-atelierdune .cm-string-2 {color: #1fad83;}
+.cm-s-atelierdune .cm-meta {color: #d43552;}
+.cm-s-atelierdune .cm-qualifier {color: #a6a28c;}
+.cm-s-atelierdune .cm-builtin {color: #b854d4;}
+.cm-s-atelierdune .cm-bracket {color: #a6a28c;}
+.cm-s-atelierdune .cm-tag {color: #d73737;}
+.cm-s-atelierdune .cm-attribute {color: #b65611;}
+.cm-s-atelierdune .cm-header {color: #6684e1;}
+.cm-s-atelierdune .cm-quote {color: #b65611;}
+.cm-s-atelierdune .cm-hr {color: #a6a28c; background-color: #6e6b5e;}
+.cm-s-atelierdune .cm-link {color: #d73737;}
+
+.cm-s-atelierdune .cm-error,
+.cm-s-atelierdune .cm-invalidchar {color: #fefbec !important; background: #d73737;}
+
+.cm-s-atelierdune.CodeMirror {
+    background: #20201d;
+    color: #a6a28c;
+}
+
+.cm-s-atelierdune div.CodeMirror-selected {
+    background: rgba(160, 160, 160, 0.33) !important;
+}
+
+.cm-s-atelierdune .CodeMirror-linenumber {
+    color: #7d7a68;
+}
+
+.cm-s-atelierdune .CodeMirror-gutters {
+    background: #20201d;
+    color: #a6a28c;
+    border-right: 0px;
+}
+
+.cm-s-atelierdune .CodeMirror-cursor,
+.cm-s-atelierdune .CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #f0f0f0 !important;
+    z-index: 3;
+}
+
+.cm-s-atelierdune div.CodeMirror-overwrite div.CodeMirror-cursor {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.cm-s-atelierdune .CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.cm-s-atelierdune .CodeMirror-activeline-background {
+    background: rgba(80, 80, 80, 0.33) !important;
+}
+
+.cm-s-atelierdune .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: transparent !important;
+    color: #6e6b5e !important
+}
+
+.cm-s-atelierdune span.CodeMirror-matchingbracket,
+.cm-s-atelierdune span.CodeMirror-matchingtag {
+    background: #6e6b5e !important;
+}
+
+.cm-s-atelierdune span.CodeMirror-matchingbracket {
+    color: white !important;
+}
